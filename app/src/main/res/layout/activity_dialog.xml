@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认stale"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stale2"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stale3"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_dialog4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stale4"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_dialog5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stale5"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
